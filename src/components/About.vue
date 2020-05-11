@@ -2,13 +2,15 @@
   <div class="container mt-4 ">
     <div class="jumbotron-fluid bg beautify">
       <div class="d-flex align-items-center justify-content-between mb-3">
-        <span class="text-light lead display-4">About Me</span>
+        <span class="text-light lead display-4 pl-3">About Me</span>
         <img src="@/assets/gare.png" class="rounded img-fluid w-25" />
       </div>
-      <p class="text-light lead">{{ p1 }}</p>
-      <p class="text-light lead">{{ p2 }}</p>
-      <p class="text-light lead">{{ p3 }}</p>
-      <p class="text-light lead">{{ p4 }}</p>
+      <div class="container">
+        <p class="text-light lead">{{ p1 }}</p>
+        <p class="text-light lead">{{ p2 }}</p>
+        <p class="text-light lead">{{ p3 }}</p>
+        <p class="text-light lead">{{ p4 }}</p>
+      </div>
     </div>
   </div>
 </template>
