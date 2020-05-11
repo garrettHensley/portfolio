@@ -3,7 +3,7 @@
     <div class="jumbotron-fluid bg">
       <div class="align-items-center justify-content-center mb-3">
         <p class="text-light lead display-4">Skills</p>
-        <ul class="list-group list listBorder">
+        <ul class="list-group list bg-dark">
           <li
             v-for="skill in skills"
             :key="skill.id"
@@ -27,7 +27,7 @@ export default {
         "Vue",
         "Bootstrap",
         "Communication/Public Speaking",
-        "Photoshop/GIMP",
+        "Photoshop",
       ],
     };
   },

@@ -1,26 +1,22 @@
 <template>
-  <div class="container">
-    <div
-      class="jumbotron text-light"
-      :style="{
-        backgroundImage:
-          'linear-gradient(rgba(39, 34, 42, 1), rgba(39, 34, 42, .2)), url(' +
-          img +
-          ')',
-      }"
-    >
-      <h1 class="display-5">{{ name }}</h1>
-      <p class="lead text-light">
-        {{ description }}
-      </p>
-
-      <a
-        class="btn btn-primary test btn-lg"
-        :href="source"
-        target="_blank"
-        role="button"
-        >Source</a
-      >
+  <div class="col mb-2">
+    <div class="card text-white bg-dark">
+      <img :src="img" class="img-fluid" />
+      <div class="cardbody px-3">
+        <h4 class="card-title">{{ name }}</h4>
+        <p class="lead text-light">
+          {{ description }}
+        </p>
+        <div class="text-center">
+          <a
+            class="btn btn-primary test btn-lg"
+            :href="source"
+            target="_blank"
+            role="button"
+            >Source</a
+          >
+        </div>
+      </div>
     </div>
   </div>
 </template>
